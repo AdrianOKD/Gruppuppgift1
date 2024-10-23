@@ -15,9 +15,4 @@ public class Baklänges
         Console.ReadLine();
     }
 
-
-
-
-
-
 }
