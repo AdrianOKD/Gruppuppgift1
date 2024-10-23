@@ -4,23 +4,15 @@ public class Baklänges
     public static void Run()
     
     {
+        System.Console.WriteLine("Type in a word:");
 
-        System.Console.WriteLine("Skriv in ett ord:  ");
+        string word = Console.ReadLine()!;
 
-
-        string ord = Console.ReadLine()!;
-
-        for (int i = ord.Length - 1; i >= 0 ; i--)
+        for (int i = word.Length - 1; i >= 0 ; i--)
         {
-        Console.Write(ord[i]);
+        Console.Write(word[i]);
         }
-
-
-
-
-
-
-
+        Console.ReadLine();
     }
 
 

@@ -3,18 +3,15 @@ public class LastString{
 
 public static void Run()
 {
+System.Console.WriteLine("Type in a string of words:");
 
+String userString = Console.ReadLine()!;
 
-System.Console.WriteLine("Skriv något :)");
+char[] seperator = {';', ' ', '.', '!', '?', ','};
 
-String användarMening = Console.ReadLine()!;
+String[] word = userString.Split(seperator, StringSplitOptions.RemoveEmptyEntries);
 
-
-char[] mellan = {';', ' ', '.', '!', '?', ','};
-
-String[] ord = användarMening.Split(mellan);
-
-Console.WriteLine($"Sista ordet i strängen är: {ord[^1]}");
+Console.WriteLine($"The last word in your string is: {word[^1]}");
 }
 
 }
