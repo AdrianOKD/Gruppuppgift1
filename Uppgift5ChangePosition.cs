@@ -1,12 +1,8 @@
 public class BytPlats
-
 {
-
     public static void Run()
 
-
     {
-
         string a = "Hej, jag gillar glass. Vad gillar du ?";
         string[] string1 = a.Split(' ', '?');
 
@@ -50,12 +46,5 @@ public class BytPlats
 
         string newString3 = string.Join(" ", string3);
         Console.WriteLine(newString3);
-
     }
-
-
-
-
-
-
 }
