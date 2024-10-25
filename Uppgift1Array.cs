@@ -1,4 +1,4 @@
-public class Array1{
+public class ArrayNumbers{
 
     public static void Run(){
 

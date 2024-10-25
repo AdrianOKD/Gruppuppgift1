@@ -25,22 +25,22 @@ class Program
             switch (Val)
             {
                 case 1:
-                    Uppgift1Array.Run();
+                    ArrayNumbers.Run();
                     break;
                 case 2:
-                    Uppgift2LastString.Run();
+                    LastString.Run();
                     break;
                 case 3:
-                    Uppgift3SearchandWrite.Run();
+                    SearchandWrite.Run();
                     break;
                 case 4:
-                    Uppgift4Reversed.Run();
+                    Reversed.Run();
                     break;
                 case 5:
-                    Uppgift5CchangePosition.Run();
+                    ChangePosition.Run();
                     break;
                 case 0:
-                    endrun = false; // Exit the loop
+                    endrun = false; 
                     Console.WriteLine("Avslutar programmet.");
                     break;
                 default:
